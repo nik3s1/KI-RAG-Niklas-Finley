@@ -112,3 +112,4 @@ _________________________________________________________________
 
 ✅ **Geschafft, wenn:** Ihr den Vorher/Nachher-Vergleich vollständig ausgefüllt
 habt und eure Wissensbasis im RAG aktiv ist.
+test
