@@ -58,11 +58,18 @@ Achtet auf gute Struktur (siehe Checkliste in `docs/04_rag-erklaert.md`):
 
 **C.2** Welche Dateien habt ihr erstellt?
 
-| Dateiname | Inhalt (Stichworte) |
-|-----------|---------------------|
-| | |
-| | |
-| | |
+| Dateiname                                | Inhalt (Stichworte)                  |
+| ---------------------------------------- | ------------------------------------ |
+| absolute und relative pfade erklärung.md | Pfade, Verzeichnisse, Navigation     |
+| chmod_erklärung.md                       | Rechte ändern, chmod, Berechtigungen |
+| dateirechte.md                           | rwx-Rechte, Besitzer, Gruppen        |
+| etc verzeichnis erklärung.md             | `/etc`, Konfiguration, Systemdateien |
+| grep erklärung.md                        | Textsuche, Muster, Optionen          |
+| hard link und symbolic link erklärung.md | Hard Links, Symlinks, Verknüpfungen  |
+| linux_wissen_ubuntu_arch.md              | Ubuntu, Arch, Unterschiede           |
+| linux-grundlagen.md                      | Linux-Aufbau, Grundlagen, Befehle    |
+| shell-befehle.md                         | Terminal, Shell, wichtige Befehle    |
+
 
 **C.3 System-Prompt setzen.** Legt in Open WebUI ein eigenes Modell an:
 `Workspace → Models → + Create Model`, basierend auf `gemma3:1b`, mit einem
@@ -84,19 +91,17 @@ _________________________________________________________________
 
 | # | Antwort jetzt korrekt? (ja/teils/nein) | Besser als vorher? |
 |---|----------------------------------------|--------------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Wofür wird der Befehl chmod verwendet? | Ja | Ja
+| 2 | Was ist der Unterschied zwischen einem absoluten und einem relativen Pfad? | Ja | Ja
+| 3 | Wofür wird das Verzeichnis /etc verwendet? | Ja | Ja
+| 4 | Was macht der Befehl grep? | Ja | Ja
+| 5 | Was ist der Unterschied zwischen einem Hard Link und einem Symbolic Link? | Fast | Ja, aber 1 fehler
 
-**D.3** Wie viele sind **jetzt** korrekt? ______ / 5  (vorher: ______ / 5)
+**D.3** Wie viele sind **jetzt** korrekt? 5 / 5  (vorher: 1 / 5)
 
 **D.4** Beschreibt den deutlichsten Unterschied, den ihr beobachtet habt:
 
-_________________________________________________________________
-
-_________________________________________________________________
+Die antworten sind allgemein korrekt, wenn es um trainiertes Wissen geht. Wenn es um spezifische Fragen geht, die in der Wissensbasis stehen, ist das Modell in der Lage, diese korrekt zu beantworten. Die Antworten sind leicht präziser und enthalten mehr Details.
 
 ---
 
@@ -106,10 +111,9 @@ _________________________________________________________________
 zugehörige Dokument (mehr Details, klarere Struktur). Lade es neu hoch und teste
 erneut. Was hat sich geändert?
 
-_________________________________________________________________
+Die frage "Was ist der Unterschied zwischen einem Hard Link und einem Symbolic Link?" wird nun korrekt beantwortet
 
 ---
 
 ✅ **Geschafft, wenn:** Ihr den Vorher/Nachher-Vergleich vollständig ausgefüllt
 habt und eure Wissensbasis im RAG aktiv ist.
-test
