@@ -31,7 +31,7 @@ Jede Gruppe übernimmt eines dieser Gebiete (Zuteilung durch die Lehrkraft):
 | **Datenbanken** | SQL-Befehle, Joins, Normalisierung |
 | **Linux** | Shell-Befehle, Dateirechte, Paketverwaltung |
 
-**Unsere Domäne:** ____________________________________________
+**Unsere Domäne:** Linux
 
 ---
 
