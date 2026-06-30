@@ -27,11 +27,11 @@ unser-ki-rag/
 
 **A.2** Was gehört **mindestens** in die README?
 
-- [ ] Worum geht es? (1-2 Sätze)
-- [ ] Welche Domäne?
-- [ ] Verwendete Technik (Docker, Ollama, gemma3:1b, Open WebUI)
-- [ ] Kurzanleitung: Wie startet man euer System?
-- [ ] Wichtigste Erkenntnisse
+- [x] Worum geht es? (1-2 Sätze)
+- [x] Welche Domäne?
+- [x] Verwendete Technik (Docker, Ollama, gemma3:1b, Open WebUI)
+- [x] Kurzanleitung: Wie startet man euer System?
+- [x] Wichtigste Erkenntnisse
 
 > **Hinweis:** Keine API-Keys ins Repo hochladen! Diese gehören **nicht** in
 > Repositories.
@@ -42,12 +42,12 @@ unser-ki-rag/
 
 Sammelt eure Ergebnisse aus den Arbeitsblättern in der Repo-Doku:
 
-- [ ] Installationsweg + **Fehler-Protokoll** (aus AB2)
-- [ ] Vorher/Nachher-Vergleich des RAG (aus AB3)
-- [ ] Grenzen-Experiment (aus AB4)
-- [ ] Screenshots als Belege
-- [ ] Eure Wissensbasis-Dateien
-- [ ] (Optional) Cloud-Vergleich + Datenschutz (aus AB5)
+- [x] Installationsweg + **Fehler-Protokoll** (aus AB2)
+- [x] Vorher/Nachher-Vergleich des RAG (aus AB3)
+- [x] Grenzen-Experiment (aus AB4)
+- [x] Screenshots als Belege
+- [x] Eure Wissensbasis-Dateien
+- [x] (Optional) Cloud-Vergleich + Datenschutz (aus AB5)
 
 ---
 
@@ -59,22 +59,22 @@ euer Ergebnis und beantwortet 2-3 Fachfragen. Bereitet euch vor:
 **C.1 Demo vorbereiten.** Die wichtigste Demo ist der **Vorher/Nachher-Effekt**:
 dieselbe Frage einmal ohne, einmal mit Wissensbasis.
 
-- Welche Frage zeigt den Effekt am besten? _______________________
-- Funktioniert die Demo gerade? [ ] ja  -> einmal durchspielen!
+- Welche Frage zeigt den Effekt am besten? Bitte /etc erklären
+- Funktioniert die Demo gerade? [x] ja  -> einmal durchspielen!
 
 **C.2 Wer erklärt was?** Beide sollten sprechen können.
 
 | Thema | Wer? |
 |-------|------|
-| Was unser System macht / Demo | |
-| Wie KI/RAG funktioniert | |
-| Welche Probleme wir gelöst haben | |
-| Was wir über Grenzen gelernt haben | |
+| Was unser System macht / Demo | Finley |
+| Wie KI/RAG funktioniert | Finley |
+| Welche Probleme wir gelöst haben | Finley |
+| Was wir über Grenzen gelernt haben | Finley |
 
 **C.3 Generalcheck:**
 
-- [ ] Repo ist aktuell und vollständig
-- [ ] Demo läuft auf dem eigenen Laptop
+- [x] Repo ist aktuell und vollständig
+- [x] Demo läuft auf dem eigenen Laptop
 - [ ] Beide kennen die Antworten auf die Fragen aus AB1-AB4
 
 ---
