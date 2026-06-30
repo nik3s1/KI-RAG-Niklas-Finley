@@ -1,6 +1,6 @@
 # Arbeitsblatt 5 – Umstieg auf ein externes (Cloud-)LLM  ⭐ OPTIONAL
 
-**Gruppe:** ____________________  **Domäne:** ____________________
+**Gruppe:** Niklas/Finley **Domäne:** Linux
 
 > **⭐ Zusatzaufgabe für schnelle Gruppen.** Nur bearbeiten, wenn euer RAG-System
 > läuft, getestet und dokumentiert ist (AB1–AB4 fertig).
@@ -15,14 +15,12 @@
 
 **A.1** Wie lange dauert eine typische Antwort mit dem lokalen `gemma3:1b`?
 
-ca. ______ Sekunden
+ca. 0.5 Sekunden
 
 **A.2** Was ist der vermutete Grund für die Geschwindigkeit lokaler Modelle ohne
 Grafikkarte?
 
-_________________________________________________________________
-
----
+Weniger TOPS, heißt weniger Rechenleistung, daher langsamer.
 
 ## Teil B – Cloud-LLM anbinden
 
@@ -40,7 +38,7 @@ _________________________________________________________________
 
 **B.3** Stellt eine eurer Domänen-Fragen. Antwortzeit jetzt?
 
-ca. ______ Sekunden  (lokal war: ______ Sekunden)
+ca. - Sekunden  (lokal war: 0.5 Sekunden)
 
 ---
 
@@ -50,7 +48,7 @@ Viele Gruppen stoßen jetzt auf diese Fehlermeldung.
 
 **C.1** Was bedeutet sie? (Tipp: Token-Limit + RAG-Kontext)
 
-_________________________________________________________________
+Die anfrage an sich ist zu groß, weil das Modell nur eine bestimmte Anzahl an Token verarbeiten kann. Wenn die Anfrage (inklusive Kontext) dieses Limit überschreitet, kommt es zu dieser Fehlermeldung.
 
 **C.2** Welche Lösung habt ihr angewandt? (mehrere möglich)
 
@@ -60,8 +58,7 @@ _________________________________________________________________
 - [ ] Dokumente gekürzt
 
 **C.3** Hat es funktioniert? ☐ ja ☐ nein – Beobachtung:
-
-_________________________________________________________________
+Die Cloud-KI haben wir nicht aktiv genutzt, sondern nur theorie gemacht, da es wegen der schon vorhandenen rechenleistung eher sinnlos war.
 
 ---
 
@@ -71,11 +68,11 @@ Füllt die Vergleichstabelle aus (eigene Einschätzung):
 
 | Kriterium | Lokal (gemma3:1b) | Cloud (Groq) |
 |-----------|-------------------|--------------|
-| Geschwindigkeit | | |
-| Antwortqualität | | |
-| Datenschutz | | |
-| Internet nötig? | | |
-| Kosten | | |
+| Geschwindigkeit | Sehr Schnell| Auch sehr schnell|
+| Antwortqualität | Geht, liegt am wissen| Gute Antwort|
+| Datenschutz | Hoher Schutz| Geringerer Schutz|
+| Internet nötig? | Nein | Ja |
+| Kosten | Kostenlos | Bezahlbar |
 
 ---
 
@@ -84,17 +81,17 @@ Füllt die Vergleichstabelle aus (eigene Einschätzung):
 **E.1** Beim Cloud-LLM verlassen eure Eingaben den eigenen Rechner. Wohin gehen
 die Daten ungefähr, und warum ist das relevant?
 
-_________________________________________________________________
+Bei Groq werden die Eingaben über das Internet an die Server gesendet und dort verarbeitet. Das ist relevant, weil dabei sensible oder vertrauliche Daten den eigenen Rechner verlassen und Datenschutz- sowie Unternehmensrichtlinien beachtet werden müssen.
 
 **E.2** Nennt ein Beispiel aus dem IT-Berufsalltag, bei dem man **auf keinen
 Fall** ein Cloud-LLM nutzen sollte:
 
-_________________________________________________________________
+Quellcode eines nicht veröffentlichten Projekts, Kundendaten, Passwörter oder interne Konfigurationsdateien.
 
 **E.3** Wann ist umgekehrt ein lokales Modell die bessere Wahl, obwohl es
 langsamer ist?
 
-_________________________________________________________________
+Ein lokales Modell ist die bessere Wahl, wenn sensible Daten verarbeitet werden oder keine Internetverbindung verfügbar ist. An sich ist die Leistung ein geringes Problem und es bleiben die Daten auf dem eigenen Rechner.
 
 ---
 
