@@ -1,0 +1,9 @@
+Hallo Herr Groß, hallo Herr Zdanovicz,
+
+laut Herrn Strecke müsste ich die Cloud-Anbindung für das Projekt nicht zwingend umsetzen, da diese in unserem Fall nur einen geringen Mehrwert bieten würde. Stattdessen hat er vorgeschlagen, den Unterschied zwischen einer lokalen KI-Ausführung auf normaler Hardware und einer dedizierten Grafikkarte zu demonstrieren, und die Cloud-Anbindung nur verbal beschreiben zu können.
+
+Dabei würde ich zeigen, welchen Einfluss eine dedizierte GPU auf die Geschwindigkeit und Leistung eines lokalen KI-Modells hat und die Unterschiede entsprechend dokumentieren.
+
+Im Vergleich zur lokalen KI mit dedizierter GPU wäre die Cloud-KI in unserem Anwendungsfall voraussichtlich sogar langsamer und hätte hauptsächlich den Vorteil, auf ein genaueres Modell mit potenziell genaueren Antworten zugreifen zu können.
+
+Vielen Dank!
