@@ -1,1 +1,5 @@
-Während des Projekts trat das Problem auf, dass das Modell häufig nur ein bis zwei Wörter als Antwort ausgab. Die Ursache war eine zu geringe Anzahl an verfügbaren Kontext-Tokens. Durch das Erhöhen des Kontextlimits konnte das Modell längere und vollständige Antworten erzeugen.
+Probleme
+Modell wurde anfangs nicht angezeigt -> ollama pull gemma3:1b ausgeführt und Open WebUI neu gestartet.
+Antworten wurden teilweise abgeschnitten -> max_tokens erhöht.
+Teilweise wurden falsche Dokumente für die Antwort verwendet -> Wissensbasis aufgeteilt und Dokumente klarer strukturiert.
+Nach Änderungen an der Wissensbasis die Dateien erneut hochgeladen und das Modell noch einmal getestet.

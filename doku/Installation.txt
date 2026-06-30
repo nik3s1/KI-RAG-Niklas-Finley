@@ -1,0 +1,25 @@
+Installation
+Docker Desktop installiert.
+Mit docker --version überprüft, ob Docker richtig installiert wurde.
+Ollama installiert.
+Mit ollama --version kontrolliert, ob Ollama erkannt wird.
+Das Modell mit ollama pull gemma3:1b heruntergeladen.
+Mit ollama list überprüft, ob das Modell vorhanden ist.
+Den Projektordner mit der docker-compose.yml geöffnet.
+Container mit docker compose up -d gestartet.
+Mit docker ps kontrolliert, ob die Container laufen.
+Open WebUI über http://localhost:3000 geöffnet.
+Einen lokalen Account erstellt und angemeldet.
+Das Modell gemma3:1b ausgewählt.
+Eine neue Wissensbasis erstellt.
+Die Linux-Markdown-Dateien hochgeladen.
+Ein eigenes Modell auf Basis von gemma3:1b erstellt.
+Den System-Prompt eingefügt.
+Die Wissensbasis dem Modell zugewiesen.
+Einen neuen Chat gestartet und getestet, ob Antworten aus der Wissensbasis verwendet werden.
+
+Ergebnis
+Docker und Open WebUI laufen lokal.
+gemma3:1b ist über Ollama verfügbar.
+Linux-Wissensbasis erfolgreich eingebunden.
+Fragen können jetzt mit Unterstützung der Wissensbasis beantwortet werden.
