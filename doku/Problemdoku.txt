@@ -1,0 +1,1 @@
+Während des Projekts trat das Problem auf, dass das Modell häufig nur ein bis zwei Wörter als Antwort ausgab. Die Ursache war eine zu geringe Anzahl an verfügbaren Kontext-Tokens. Durch das Erhöhen des Kontextlimits konnte das Modell längere und vollständige Antworten erzeugen.
