@@ -17,25 +17,20 @@
 **A.1** Ändert in einem Dokument bewusst eine Tatsache ins Falsche - z. B. einen
 Befehl, eine Zahl oder einen Fachbegriff. Was habt ihr gefälscht?
 
-_________________________________________________________________
+Wir haben in dateirechte.md den Befehl chmod 755 absichtlich zu chmod 999 geändert.
 
 **A.2** Ladet das geänderte Dokument neu hoch und stellt die passende Frage.
 Übernimmt die KI die falsche Information?
 
-[ ] ja, übernimmt sie   [ ] nein, antwortet trotzdem korrekt   [ ] teils
+[x] ja, übernimmt sie   [ ] nein, antwortet trotzdem korrekt   [ ] teils
 
 **A.3** Notiert die Antwort der KI (sinngemäß):
 
-_________________________________________________________________
-
-_________________________________________________________________
+Die KI erklärte den absichtlich falschen Wert 999 als gültige Berechtigung und übernahm damit die fehlerhafte Information aus der Wissensbasis
 
 **A.4** Was schließt ihr daraus über die Vertrauenswürdigkeit eines RAG-Systems?
 
-_________________________________________________________________
-
-_________________________________________________________________
-
+Ein RAG-System überprüft die Informationen aus der Wissensbasis nicht automatisch auf Wahrheit. Es verwendet die bereitgestellten Daten. Deshalb müssen die Dokumente korrekt und vertrauenswürdig sein.
 > **Nach dem Experiment:** Stellt eure korrekten Dokumente wieder her!
 
 ---
@@ -50,9 +45,7 @@ Wenn ihr Zeit habt, testet zusätzlich **eine** dieser Varianten:
 
 Eure Beobachtung:
 
-_________________________________________________________________
-
-_________________________________________________________________
+Bei wiederspruch ist es random und bei nachfrage nach einer lücke erfindet die KI eine Antwort, die plausibel klingt, aber nicht korrekt ist.
 
 ---
 
@@ -61,20 +54,18 @@ _________________________________________________________________
 **C.1** Nennt **zwei** Situationen, in denen man einer KI-Antwort **nicht** blind
 vertrauen sollte:
 
-1. _______________________________________________________________
-2. _______________________________________________________________
+1. Bei sicherheitkonfigurationen wie Firewall-Regeln oder Benutzerrechten.
+2. Bei medizinischen Diagnosen oder Behandlungen.
 
 **C.2** Was bedeutet euer Ergebnis aus Teil A für den Einsatz von KI im
 IT-Berufsalltag (z. B. bei Konfigurationen oder Code)?
 
-_________________________________________________________________
-
-_________________________________________________________________
+Im IT-Berufsalltag muss man KI-Ergebnisse überprüfen. Eine falsche Konfiguration kann Sicherheitsprobleme oder Systemausfälle verursachen
 
 **C.3** Formuliert eine Regel für euch selbst: "Bevor ich eine KI-Antwort
 übernehme, ..."
 
-_________________________________________________________________
+Bevor ich eine KI-Antwort übernehme, überprüfe ich die Informationen anhand von Dokumentationen oder Tests.
 
 ---
 

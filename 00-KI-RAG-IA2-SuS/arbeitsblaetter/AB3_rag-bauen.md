@@ -1,6 +1,6 @@
 # Arbeitsblatt 3 – Mini-RAG bauen
 
-**Gruppe:** Finley & Niklas  **Domäne:** Linux
+**Gruppe:** ____________________  **Domäne:** ____________________
 
 > **Ziel:** Ihr baut für eure Domäne eine eigene Wissensbasis und seht im
 > direkten Vorher/Nachher-Vergleich, was RAG bewirkt.
